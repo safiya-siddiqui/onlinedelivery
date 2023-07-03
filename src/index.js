@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Nav from './Nav';
+import Home from './Home';
+import Analytics from './Analytics';
+import Trending from './Trending';
+import Referal from './Referal';
+import Footer from './Footer';
+import Triks from './Triks';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav/>
+    <Home/>
+    <Analytics/>
+ <Trending/>
+ <Referal/>
+ <Triks/>
+ <Footer/>
+ 
   </React.StrictMode>
 );
 
